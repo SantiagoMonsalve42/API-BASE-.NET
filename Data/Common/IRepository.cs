@@ -1,4 +1,5 @@
-﻿using Data.ModelData;
+﻿
+using Data.ModelData;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data.Common

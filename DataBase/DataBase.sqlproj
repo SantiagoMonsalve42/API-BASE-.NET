@@ -60,13 +60,13 @@
     <Folder Include="dbo\Tables\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Transacciones.sql" />
-    <Build Include="dbo\Tables\Tipos_Telefonos.sql" />
-    <Build Include="dbo\Tables\Tipos_documentos.sql" />
-    <Build Include="dbo\Tables\Telefonos_persona.sql" />
-    <Build Include="dbo\Tables\PreguntasSeguridad.sql" />
-    <Build Include="dbo\Tables\Preguntas_Respuestas.sql" />
-    <Build Include="dbo\Tables\Persona.sql" />
-    <Build Include="dbo\Tables\Cuenta.sql" />
+    <Build Include="dbo\Tables\venta.sql" />
+    <Build Include="dbo\Tables\tipo_telefono.sql" />
+    <Build Include="dbo\Tables\tipo_documento.sql" />
+    <Build Include="dbo\Tables\telefono_provedor.sql" />
+    <Build Include="dbo\Tables\telefono_cliente.sql" />
+    <Build Include="dbo\Tables\provedor.sql" />
+    <Build Include="dbo\Tables\producto.sql" />
+    <Build Include="dbo\Tables\cliente.sql" />
   </ItemGroup>
 </Project>

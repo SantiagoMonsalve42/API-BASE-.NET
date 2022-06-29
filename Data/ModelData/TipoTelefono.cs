@@ -6,13 +6,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.ModelData
 {
-    [Table("Tipos_Telefonos")]
-    public partial class TiposTelefono
+    [Table("tipo_telefono")]
+    public partial class TipoTelefono
     {
         [Key]
-        public long Id { get; set; }
+        [Column("id", TypeName = "numeric(18, 0)")]
+        public decimal Id { get; set; }
+        [Column("tipo")]
         [StringLength(50)]
         [Unicode(false)]
-        public string TipoTelefono { get; set; } = null!;
+        public string Tipo { get; set; } = null!;
     }
 }

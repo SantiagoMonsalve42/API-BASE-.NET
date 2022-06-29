@@ -6,7 +6,7 @@ using System.Net;
 namespace Contabilidad_api.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]/[action]")]
+    [Route("api/v1/[controller]")]
     [EnableCors("MyCorsPolicyCustomable")]
     
     public class BaseController: Controller

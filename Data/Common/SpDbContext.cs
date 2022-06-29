@@ -2,11 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Data.Common
+namespace Data.ModelData
 {
     public partial class SpDbContext
     {
-        protected void OnConfiguring(DbContextOptionsBuilder optionBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
             if (!optionBuilder.IsConfigured)
             {
